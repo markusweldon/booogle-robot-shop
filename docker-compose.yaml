@@ -73,6 +73,7 @@ services:
     build:
       context: mysql
     image: ${REPO}/rs-mysql-db:${TAG}
+    platform: linux/x86_64  # Added this for m1+m2 mac support
     cap_add:
       - NET_ADMIN
     networks:
