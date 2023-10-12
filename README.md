@@ -34,6 +34,12 @@ Now build all the images.
 
 ```shell
 $ docker-compose build
+
+or
+
+docker-compose up --build
+docker-compose down
+
 ```
 
 If you modified the `.env` file and changed the image registry, you need to push the images to that registry
