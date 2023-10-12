@@ -3,8 +3,10 @@
 }
 
 body {
-    background: linear-gradient(180deg, #0c1415, #16363e);
-    color: cyan;
+    background: #03001e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: rgb(140, 0, 255);
     height: 1000px;
 }
 
@@ -13,12 +15,12 @@ h1 {
 }
 
 h1 a:link {
-    color: cyan;
+    color: rgb(140, 0, 255);
     text-decoration: none;
 }
 
 h1 a:visited {
-    color: cyan;
+    color: rgb(140, 0, 255);
     text-decoration: none;
 }
 
@@ -28,12 +30,12 @@ h3 {
 }
 
 h3 a:link {
-    color: cyan;
+    color: rgb(140, 0, 255);
     text-decoration: none;
 }
 
 h3 a:visited {
-    color: cyan;
+    color: rgb(140, 0, 255);
     text-decoration: none;
 }
 
@@ -52,12 +54,12 @@ ul.products {
 }
 
 a.product:visited {
-    color: cyan;
+    color: rgb(140, 0, 255);
     text-decoration: none;
 }
 
 a.product:link {
-    color: cyan;
+    color: rgb(140, 0, 255);
     text-decoration: none;
 }
 
@@ -114,7 +116,7 @@ a.product:hover {
 
 /* product details */
 .productimage {
-    border: 2px solid cyan;
+    border: 2px solid rgb(140, 0, 255);
     padding: 5px;
     margin: 10px;
     width: 300px;
@@ -127,7 +129,7 @@ a.product:hover {
 }
 
 .productcart {
-    border: 1px solid cyan;
+    border: 1px solid rgb(140, 0, 255);
     margin: 10px;
     padding: 5px;
     width: 300px;
@@ -146,13 +148,13 @@ a.product:hover {
 
 /* login register */
 table.credentials {
-    border: 2px solid cyan;
+    border: 2px solid rgb(140, 0, 255);
     padding: 10px;
     margin: 10px;
 }
 
 .message {
-    color: magenta;
+    color: rgb(140, 0, 255);
     font-weight: bold;
     height: 30px;
 }
@@ -168,13 +170,13 @@ table.credentials {
 
 /* payment */
 a.cont:visited {
-    color: cyan;
+    color: rgb(140, 0, 255);
     text-decoration: none;
     font-weight: bold;
 }
 
 a.cont:link {
-    color: cyan;
+    color: rgb(140, 0, 255);
     text-decoration: none;
     font-weight: bold;
 }
