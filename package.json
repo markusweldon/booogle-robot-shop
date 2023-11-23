@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "openmct": "^3.0.2"
+    "openmct": "^3.1.1"
   }
 }
